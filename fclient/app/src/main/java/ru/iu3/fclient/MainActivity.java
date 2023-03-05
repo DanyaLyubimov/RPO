@@ -8,7 +8,6 @@ import android.widget.TextView;
 import ru.iu3.fclient.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
-
     // Used to load the 'fclient' library on application startup.
     static {
         System.loadLibrary("fclient");
@@ -19,12 +18,16 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
-        setContentView(binding.getRoot());
+        int res=initRng();
+        byte[] v = randomBytes(10);
+        //binding = ActivityMainBinding.inflate(getLayoutInflater());
+        //setContentView(binding.getRoot());
 
         // Example of a call to a native method
-        TextView tv = binding.sampleText;
+        //TextView tv = binding.sampleText;
+        TextView tv = findViewById(R.id.sample_text);
         tv.setText(stringFromJNI());
     }
     static {
@@ -36,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
      * which is packaged with this application.
      */
     public native String stringFromJNI();
+    public static native int initRng();
+    public static native byte[] randomBytes(int no);
 }
 
 
