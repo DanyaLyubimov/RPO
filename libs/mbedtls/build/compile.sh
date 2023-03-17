@@ -2,9 +2,9 @@
 #!/bin/bash
 
 #ABI=armeabi-v7a
-#ABI=x86
+ABI=x86
 #ABI=arm64-v8a
-ABI=x86_64
+#ABI=x86_64
 
 
 ANDROID_NDK=/home/user/Android/Sdk/ndk/25.2.9519653
