@@ -66,7 +66,11 @@ public class MainActivity extends AppCompatActivity implements TransactionEvents
     public void onButtonClick(View v)
     {
 
-        new Thread(()-> {
+        byte[] trd = stringToHex("9F0206000000000100");
+        transaction(trd);
+
+
+        /*new Thread(()-> {
             try {
                 byte[] trd = stringToHex("9F0206000000000100");
                 boolean ok = transaction(trd);
@@ -81,7 +85,7 @@ public class MainActivity extends AppCompatActivity implements TransactionEvents
 
         Intent it = new Intent(this, PinpadActivity.class);
         //startActivity(it);
-        activityResultLauncher.launch(it);
+        activityResultLauncher.launch(it);*/
     }
 
 
@@ -141,6 +145,16 @@ public class MainActivity extends AppCompatActivity implements TransactionEvents
                     }
                 });
     }
+
+
+    @Override
+    public void transactionResult(boolean result) {
+        runOnUiThread(()-> {
+            Toast.makeText(MainActivity.this, result ? "ok" : "failed", Toast.LENGTH_SHORT).show();
+        });
+    }
+
+
 
     /**
      * A native method that is implemented by the 'fclient' native library,
