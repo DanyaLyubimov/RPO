@@ -58,6 +58,7 @@ library/CMakeFiles/mbedcrypto.dir/pk_wrap.c.o: \
   /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/errno.h \
   /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/errno-base.h \
   /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_errno_inlines.h \
+  /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/assert.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/platform_util.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/platform_time.h \
   /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/time.h \
@@ -108,9 +109,14 @@ library/CMakeFiles/mbedcrypto.dir/pk_wrap.c.o: \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/sha512.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto_driver_contexts_composites.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto_builtin_composites.h \
+  /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/ecjpake.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto_extra.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto_compat.h \
-  /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/ecjpake.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/error.h \
   /home/user/Projects/libs/mbedtls/mbedtls/library/pkwrite.h \
+  /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/psa_util.h \
+  /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/oid.h \
+  /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/asn1.h \
+  /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/ctr_drbg.h \
+  /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/aes.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/platform.h

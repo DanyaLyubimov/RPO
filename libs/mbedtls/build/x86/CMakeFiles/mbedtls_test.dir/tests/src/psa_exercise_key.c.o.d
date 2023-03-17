@@ -109,9 +109,9 @@ CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.o: \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/ecdsa.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/ecp.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/md.h \
+  /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/ecjpake.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto_extra.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto_compat.h \
-  /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/ecjpake.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/asn1.h \
   /home/user/Projects/libs/mbedtls/mbedtls/tests/include/test/asn1_helpers.h \
   /home/user/Projects/libs/mbedtls/mbedtls/library/psa_crypto_slot_management.h \

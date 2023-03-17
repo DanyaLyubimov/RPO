@@ -58,6 +58,7 @@ library/CMakeFiles/mbedcrypto.dir/sha1.c.o: \
   /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/errno.h \
   /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/errno-base.h \
   /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_errno_inlines.h \
+  /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/assert.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/sha1.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/private_access.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/platform_util.h \

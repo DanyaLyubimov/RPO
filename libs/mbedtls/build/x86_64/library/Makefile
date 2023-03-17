@@ -2176,6 +2176,33 @@ psa_its_file.c.s:
 	cd /home/user/Projects/libs/mbedtls/build/x86_64 && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/mbedcrypto.dir/build.make library/CMakeFiles/mbedcrypto.dir/psa_its_file.c.s
 .PHONY : psa_its_file.c.s
 
+psa_util.o: psa_util.c.o
+.PHONY : psa_util.o
+
+# target to build an object file
+psa_util.c.o:
+	cd /home/user/Projects/libs/mbedtls/build/x86_64 && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/mbedcrypto_static.dir/build.make library/CMakeFiles/mbedcrypto_static.dir/psa_util.c.o
+	cd /home/user/Projects/libs/mbedtls/build/x86_64 && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/mbedcrypto.dir/build.make library/CMakeFiles/mbedcrypto.dir/psa_util.c.o
+.PHONY : psa_util.c.o
+
+psa_util.i: psa_util.c.i
+.PHONY : psa_util.i
+
+# target to preprocess a source file
+psa_util.c.i:
+	cd /home/user/Projects/libs/mbedtls/build/x86_64 && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/mbedcrypto_static.dir/build.make library/CMakeFiles/mbedcrypto_static.dir/psa_util.c.i
+	cd /home/user/Projects/libs/mbedtls/build/x86_64 && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/mbedcrypto.dir/build.make library/CMakeFiles/mbedcrypto.dir/psa_util.c.i
+.PHONY : psa_util.c.i
+
+psa_util.s: psa_util.c.s
+.PHONY : psa_util.s
+
+# target to generate assembly for a file
+psa_util.c.s:
+	cd /home/user/Projects/libs/mbedtls/build/x86_64 && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/mbedcrypto_static.dir/build.make library/CMakeFiles/mbedcrypto_static.dir/psa_util.c.s
+	cd /home/user/Projects/libs/mbedtls/build/x86_64 && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/mbedcrypto.dir/build.make library/CMakeFiles/mbedcrypto.dir/psa_util.c.s
+.PHONY : psa_util.c.s
+
 ripemd160.o: ripemd160.c.o
 .PHONY : ripemd160.o
 
@@ -3245,6 +3272,9 @@ help:
 	@echo "... psa_its_file.o"
 	@echo "... psa_its_file.i"
 	@echo "... psa_its_file.s"
+	@echo "... psa_util.o"
+	@echo "... psa_util.i"
+	@echo "... psa_util.s"
 	@echo "... ripemd160.o"
 	@echo "... ripemd160.i"
 	@echo "... ripemd160.s"

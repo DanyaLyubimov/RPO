@@ -52,6 +52,7 @@ library/CMakeFiles/mbedtls_static.dir/ssl_debug_helpers_generated.c.o: \
   /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/stdio.h \
   /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/stdlib.h \
   /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_stdlib_inlines.h \
+  /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/assert.h \
   /home/user/Projects/libs/mbedtls/mbedtls/library/ssl_debug_helpers.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/ssl.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/platform_util.h \
@@ -106,9 +107,9 @@ library/CMakeFiles/mbedtls_static.dir/ssl_debug_helpers_generated.c.o: \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/sha512.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto_driver_contexts_composites.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto_builtin_composites.h \
+  /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/ecjpake.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto_extra.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto_compat.h \
-  /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/ecjpake.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/x509.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/asn1.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/x509_crl.h \

@@ -58,6 +58,7 @@ library/CMakeFiles/mbedx509_static.dir/x509_crl.c.o: \
   /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/errno.h \
   /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/errno-base.h \
   /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_errno_inlines.h \
+  /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/assert.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/x509_crl.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/private_access.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/x509.h \

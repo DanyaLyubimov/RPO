@@ -88,9 +88,9 @@ programs/fuzz/CMakeFiles/fuzz_x509crt.dir/fuzz_x509crt.c.o: \
   /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/struct_file.h \
   /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/stdio.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/md.h \
+  /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/ecjpake.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto_extra.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto_compat.h \
-  /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/ecjpake.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/x509.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/asn1.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/pk.h \

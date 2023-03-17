@@ -1,4 +1,5 @@
 /home/user/Projects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir
+/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test_helpers.dir
 /home/user/Projects/libs/mbedtls/build/x86/CMakeFiles/apidoc.dir
 /home/user/Projects/libs/mbedtls/build/x86/CMakeFiles/edit_cache.dir
 /home/user/Projects/libs/mbedtls/build/x86/CMakeFiles/rebuild_cache.dir

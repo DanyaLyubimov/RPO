@@ -73,4 +73,5 @@ CMakeFiles/mbedtls_test.dir/tests/src/random.c.o: \
   /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/strcasecmp.h \
   /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/string.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/entropy.h \
-  /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/sha512.h
+  /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/sha512.h \
+  /home/user/Projects/libs/mbedtls/mbedtls/tests/src/../../library/alignment.h

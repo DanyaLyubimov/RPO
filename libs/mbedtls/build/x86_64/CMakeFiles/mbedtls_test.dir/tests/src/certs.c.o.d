@@ -52,6 +52,7 @@ CMakeFiles/mbedtls_test.dir/tests/src/certs.c.o: \
   /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/stdio.h \
   /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/stdlib.h \
   /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_stdlib_inlines.h \
+  /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/assert.h \
   /home/user/Projects/libs/mbedtls/mbedtls/tests/include/test/certs.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/legacy_or_psa.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto.h \
@@ -101,8 +102,8 @@ CMakeFiles/mbedtls_test.dir/tests/src/certs.c.o: \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/ecp.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/bignum.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/md.h \
+  /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/ecjpake.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto_extra.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto_compat.h \
-  /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/ecjpake.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/pk.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/rsa.h

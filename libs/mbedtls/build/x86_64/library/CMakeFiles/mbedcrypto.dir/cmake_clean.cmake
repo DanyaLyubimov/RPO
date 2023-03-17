@@ -131,6 +131,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/mbedcrypto.dir/psa_crypto_storage.c.o.d"
   "CMakeFiles/mbedcrypto.dir/psa_its_file.c.o"
   "CMakeFiles/mbedcrypto.dir/psa_its_file.c.o.d"
+  "CMakeFiles/mbedcrypto.dir/psa_util.c.o"
+  "CMakeFiles/mbedcrypto.dir/psa_util.c.o.d"
   "CMakeFiles/mbedcrypto.dir/ripemd160.c.o"
   "CMakeFiles/mbedcrypto.dir/ripemd160.c.o.d"
   "CMakeFiles/mbedcrypto.dir/rsa.c.o"

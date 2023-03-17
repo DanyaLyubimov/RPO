@@ -21,6 +21,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_management.c.o.d"
   "CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.o"
   "CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.o.d"
+  "CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_pake.c.o"
+  "CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_pake.c.o.d"
   "CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.o"
   "CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.o.d"
   "CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.o"

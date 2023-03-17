@@ -223,10 +223,24 @@ CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.s"
 	/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/Projects/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_mac.c -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.s
 
+CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_pake.c.o: CMakeFiles/mbedtls_test.dir/flags.make
+CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_pake.c.o: /home/user/Projects/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_pake.c
+CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_pake.c.o: CMakeFiles/mbedtls_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_pake.c.o"
+	/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_pake.c.o -MF CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_pake.c.o.d -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_pake.c.o -c /home/user/Projects/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_pake.c
+
+CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_pake.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_pake.c.i"
+	/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/Projects/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_pake.c > CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_pake.c.i
+
+CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_pake.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_pake.c.s"
+	/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/Projects/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_pake.c -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_pake.c.s
+
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.o: CMakeFiles/mbedtls_test.dir/flags.make
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.o: /home/user/Projects/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_signature.c
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.o: CMakeFiles/mbedtls_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.o"
 	/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.o -MF CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.o.d -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.o -c /home/user/Projects/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_signature.c
 
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.i: cmake_force
@@ -240,7 +254,7 @@ CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.s: cmake_f
 CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.o: CMakeFiles/mbedtls_test.dir/flags.make
 CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.o: /home/user/Projects/libs/mbedtls/mbedtls/tests/src/fake_external_rng_for_test.c
 CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.o: CMakeFiles/mbedtls_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.o"
 	/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.o -MF CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.o.d -o CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.o -c /home/user/Projects/libs/mbedtls/mbedtls/tests/src/fake_external_rng_for_test.c
 
 CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.i: cmake_force
@@ -254,7 +268,7 @@ CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.s: cmake_forc
 CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.o: CMakeFiles/mbedtls_test.dir/flags.make
 CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.o: /home/user/Projects/libs/mbedtls/mbedtls/tests/src/helpers.c
 CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.o: CMakeFiles/mbedtls_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.o"
 	/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.o -MF CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.o.d -o CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.o -c /home/user/Projects/libs/mbedtls/mbedtls/tests/src/helpers.c
 
 CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.i: cmake_force
@@ -268,7 +282,7 @@ CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.s: cmake_force
 CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.o: CMakeFiles/mbedtls_test.dir/flags.make
 CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.o: /home/user/Projects/libs/mbedtls/mbedtls/tests/src/psa_crypto_helpers.c
 CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.o: CMakeFiles/mbedtls_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.o"
 	/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.o -MF CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.o.d -o CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.o -c /home/user/Projects/libs/mbedtls/mbedtls/tests/src/psa_crypto_helpers.c
 
 CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.i: cmake_force
@@ -282,7 +296,7 @@ CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.s: cmake_force
 CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.o: CMakeFiles/mbedtls_test.dir/flags.make
 CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.o: /home/user/Projects/libs/mbedtls/mbedtls/tests/src/psa_exercise_key.c
 CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.o: CMakeFiles/mbedtls_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.o"
 	/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.o -MF CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.o.d -o CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.o -c /home/user/Projects/libs/mbedtls/mbedtls/tests/src/psa_exercise_key.c
 
 CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.i: cmake_force
@@ -296,7 +310,7 @@ CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.s: cmake_force
 CMakeFiles/mbedtls_test.dir/tests/src/random.c.o: CMakeFiles/mbedtls_test.dir/flags.make
 CMakeFiles/mbedtls_test.dir/tests/src/random.c.o: /home/user/Projects/libs/mbedtls/mbedtls/tests/src/random.c
 CMakeFiles/mbedtls_test.dir/tests/src/random.c.o: CMakeFiles/mbedtls_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/random.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/random.c.o"
 	/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mbedtls_test.dir/tests/src/random.c.o -MF CMakeFiles/mbedtls_test.dir/tests/src/random.c.o.d -o CMakeFiles/mbedtls_test.dir/tests/src/random.c.o -c /home/user/Projects/libs/mbedtls/mbedtls/tests/src/random.c
 
 CMakeFiles/mbedtls_test.dir/tests/src/random.c.i: cmake_force
@@ -310,7 +324,7 @@ CMakeFiles/mbedtls_test.dir/tests/src/random.c.s: cmake_force
 CMakeFiles/mbedtls_test.dir/tests/src/threading_helpers.c.o: CMakeFiles/mbedtls_test.dir/flags.make
 CMakeFiles/mbedtls_test.dir/tests/src/threading_helpers.c.o: /home/user/Projects/libs/mbedtls/mbedtls/tests/src/threading_helpers.c
 CMakeFiles/mbedtls_test.dir/tests/src/threading_helpers.c.o: CMakeFiles/mbedtls_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/threading_helpers.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/threading_helpers.c.o"
 	/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mbedtls_test.dir/tests/src/threading_helpers.c.o -MF CMakeFiles/mbedtls_test.dir/tests/src/threading_helpers.c.o.d -o CMakeFiles/mbedtls_test.dir/tests/src/threading_helpers.c.o -c /home/user/Projects/libs/mbedtls/mbedtls/tests/src/threading_helpers.c
 
 CMakeFiles/mbedtls_test.dir/tests/src/threading_helpers.c.i: cmake_force
@@ -332,6 +346,7 @@ mbedtls_test: CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_cipher.c
 mbedtls_test: CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_agreement.c.o
 mbedtls_test: CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_management.c.o
 mbedtls_test: CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.o
+mbedtls_test: CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_pake.c.o
 mbedtls_test: CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.o
 mbedtls_test: CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.o
 mbedtls_test: CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.o

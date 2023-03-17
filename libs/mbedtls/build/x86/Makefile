@@ -175,6 +175,19 @@ mbedtls_test/fast:
 .PHONY : mbedtls_test/fast
 
 #=============================================================================
+# Target rules for targets named mbedtls_test_helpers
+
+# Build rule for target.
+mbedtls_test_helpers: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mbedtls_test_helpers
+.PHONY : mbedtls_test_helpers
+
+# fast build rule for target.
+mbedtls_test_helpers/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mbedtls_test_helpers.dir/build.make CMakeFiles/mbedtls_test_helpers.dir/build
+.PHONY : mbedtls_test_helpers/fast
+
+#=============================================================================
 # Target rules for targets named apidoc
 
 # Build rule for target.
@@ -1452,6 +1465,30 @@ tests/src/drivers/test_driver_mac.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mbedtls_test.dir/build.make CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.s
 .PHONY : tests/src/drivers/test_driver_mac.c.s
 
+tests/src/drivers/test_driver_pake.o: tests/src/drivers/test_driver_pake.c.o
+.PHONY : tests/src/drivers/test_driver_pake.o
+
+# target to build an object file
+tests/src/drivers/test_driver_pake.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mbedtls_test.dir/build.make CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_pake.c.o
+.PHONY : tests/src/drivers/test_driver_pake.c.o
+
+tests/src/drivers/test_driver_pake.i: tests/src/drivers/test_driver_pake.c.i
+.PHONY : tests/src/drivers/test_driver_pake.i
+
+# target to preprocess a source file
+tests/src/drivers/test_driver_pake.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mbedtls_test.dir/build.make CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_pake.c.i
+.PHONY : tests/src/drivers/test_driver_pake.c.i
+
+tests/src/drivers/test_driver_pake.s: tests/src/drivers/test_driver_pake.c.s
+.PHONY : tests/src/drivers/test_driver_pake.s
+
+# target to generate assembly for a file
+tests/src/drivers/test_driver_pake.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mbedtls_test.dir/build.make CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_pake.c.s
+.PHONY : tests/src/drivers/test_driver_pake.c.s
+
 tests/src/drivers/test_driver_signature.o: tests/src/drivers/test_driver_signature.c.o
 .PHONY : tests/src/drivers/test_driver_signature.o
 
@@ -1596,6 +1633,30 @@ tests/src/random.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mbedtls_test.dir/build.make CMakeFiles/mbedtls_test.dir/tests/src/random.c.s
 .PHONY : tests/src/random.c.s
 
+tests/src/test_helpers/ssl_helpers.o: tests/src/test_helpers/ssl_helpers.c.o
+.PHONY : tests/src/test_helpers/ssl_helpers.o
+
+# target to build an object file
+tests/src/test_helpers/ssl_helpers.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mbedtls_test_helpers.dir/build.make CMakeFiles/mbedtls_test_helpers.dir/tests/src/test_helpers/ssl_helpers.c.o
+.PHONY : tests/src/test_helpers/ssl_helpers.c.o
+
+tests/src/test_helpers/ssl_helpers.i: tests/src/test_helpers/ssl_helpers.c.i
+.PHONY : tests/src/test_helpers/ssl_helpers.i
+
+# target to preprocess a source file
+tests/src/test_helpers/ssl_helpers.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mbedtls_test_helpers.dir/build.make CMakeFiles/mbedtls_test_helpers.dir/tests/src/test_helpers/ssl_helpers.c.i
+.PHONY : tests/src/test_helpers/ssl_helpers.c.i
+
+tests/src/test_helpers/ssl_helpers.s: tests/src/test_helpers/ssl_helpers.c.s
+.PHONY : tests/src/test_helpers/ssl_helpers.s
+
+# target to generate assembly for a file
+tests/src/test_helpers/ssl_helpers.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mbedtls_test_helpers.dir/build.make CMakeFiles/mbedtls_test_helpers.dir/tests/src/test_helpers/ssl_helpers.c.s
+.PHONY : tests/src/test_helpers/ssl_helpers.c.s
+
 tests/src/threading_helpers.o: tests/src/threading_helpers.c.o
 .PHONY : tests/src/threading_helpers.o
 
@@ -1678,6 +1739,7 @@ help:
 	@echo "... mbedtls"
 	@echo "... mbedtls_static"
 	@echo "... mbedtls_test"
+	@echo "... mbedtls_test_helpers"
 	@echo "... mbedx509"
 	@echo "... mbedx509_static"
 	@echo "... md_hmac_demo"
@@ -1744,6 +1806,9 @@ help:
 	@echo "... tests/src/drivers/test_driver_mac.o"
 	@echo "... tests/src/drivers/test_driver_mac.i"
 	@echo "... tests/src/drivers/test_driver_mac.s"
+	@echo "... tests/src/drivers/test_driver_pake.o"
+	@echo "... tests/src/drivers/test_driver_pake.i"
+	@echo "... tests/src/drivers/test_driver_pake.s"
 	@echo "... tests/src/drivers/test_driver_signature.o"
 	@echo "... tests/src/drivers/test_driver_signature.i"
 	@echo "... tests/src/drivers/test_driver_signature.s"
@@ -1762,6 +1827,9 @@ help:
 	@echo "... tests/src/random.o"
 	@echo "... tests/src/random.i"
 	@echo "... tests/src/random.s"
+	@echo "... tests/src/test_helpers/ssl_helpers.o"
+	@echo "... tests/src/test_helpers/ssl_helpers.i"
+	@echo "... tests/src/test_helpers/ssl_helpers.s"
 	@echo "... tests/src/threading_helpers.o"
 	@echo "... tests/src/threading_helpers.i"
 	@echo "... tests/src/threading_helpers.s"

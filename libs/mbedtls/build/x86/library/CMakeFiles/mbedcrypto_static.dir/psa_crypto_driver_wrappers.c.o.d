@@ -58,6 +58,7 @@ library/CMakeFiles/mbedcrypto_static.dir/psa_crypto_driver_wrappers.c.o: \
   /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/errno.h \
   /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/errno-base.h \
   /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_errno_inlines.h \
+  /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/assert.h \
   /home/user/Projects/libs/mbedtls/mbedtls/library/psa_crypto_aead.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto_platform.h \
@@ -106,9 +107,9 @@ library/CMakeFiles/mbedcrypto_static.dir/psa_crypto_driver_wrappers.c.o: \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/ecp.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/bignum.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/md.h \
+  /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/ecjpake.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto_extra.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto_compat.h \
-  /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/ecjpake.h \
   /home/user/Projects/libs/mbedtls/mbedtls/library/psa_crypto_cipher.h \
   /home/user/Projects/libs/mbedtls/mbedtls/library/psa_crypto_core.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto_se_driver.h \
@@ -116,6 +117,7 @@ library/CMakeFiles/mbedcrypto_static.dir/psa_crypto_driver_wrappers.c.o: \
   /home/user/Projects/libs/mbedtls/mbedtls/library/psa_crypto_hash.h \
   /home/user/Projects/libs/mbedtls/mbedtls/library/md_wrap.h \
   /home/user/Projects/libs/mbedtls/mbedtls/library/psa_crypto_mac.h \
+  /home/user/Projects/libs/mbedtls/mbedtls/library/psa_crypto_pake.h \
   /home/user/Projects/libs/mbedtls/mbedtls/library/psa_crypto_rsa.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/rsa.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/platform.h

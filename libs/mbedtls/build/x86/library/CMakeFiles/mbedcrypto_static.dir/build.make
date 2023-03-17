@@ -1076,10 +1076,24 @@ library/CMakeFiles/mbedcrypto_static.dir/psa_its_file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto_static.dir/psa_its_file.c.s"
 	cd /home/user/Projects/libs/mbedtls/build/x86/library && /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/Projects/libs/mbedtls/mbedtls/library/psa_its_file.c -o CMakeFiles/mbedcrypto_static.dir/psa_its_file.c.s
 
+library/CMakeFiles/mbedcrypto_static.dir/psa_util.c.o: library/CMakeFiles/mbedcrypto_static.dir/flags.make
+library/CMakeFiles/mbedcrypto_static.dir/psa_util.c.o: /home/user/Projects/libs/mbedtls/mbedtls/library/psa_util.c
+library/CMakeFiles/mbedcrypto_static.dir/psa_util.c.o: library/CMakeFiles/mbedcrypto_static.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object library/CMakeFiles/mbedcrypto_static.dir/psa_util.c.o"
+	cd /home/user/Projects/libs/mbedtls/build/x86/library && /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT library/CMakeFiles/mbedcrypto_static.dir/psa_util.c.o -MF CMakeFiles/mbedcrypto_static.dir/psa_util.c.o.d -o CMakeFiles/mbedcrypto_static.dir/psa_util.c.o -c /home/user/Projects/libs/mbedtls/mbedtls/library/psa_util.c
+
+library/CMakeFiles/mbedcrypto_static.dir/psa_util.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto_static.dir/psa_util.c.i"
+	cd /home/user/Projects/libs/mbedtls/build/x86/library && /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/Projects/libs/mbedtls/mbedtls/library/psa_util.c > CMakeFiles/mbedcrypto_static.dir/psa_util.c.i
+
+library/CMakeFiles/mbedcrypto_static.dir/psa_util.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto_static.dir/psa_util.c.s"
+	cd /home/user/Projects/libs/mbedtls/build/x86/library && /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/Projects/libs/mbedtls/mbedtls/library/psa_util.c -o CMakeFiles/mbedcrypto_static.dir/psa_util.c.s
+
 library/CMakeFiles/mbedcrypto_static.dir/ripemd160.c.o: library/CMakeFiles/mbedcrypto_static.dir/flags.make
 library/CMakeFiles/mbedcrypto_static.dir/ripemd160.c.o: /home/user/Projects/libs/mbedtls/mbedtls/library/ripemd160.c
 library/CMakeFiles/mbedcrypto_static.dir/ripemd160.c.o: library/CMakeFiles/mbedcrypto_static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object library/CMakeFiles/mbedcrypto_static.dir/ripemd160.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object library/CMakeFiles/mbedcrypto_static.dir/ripemd160.c.o"
 	cd /home/user/Projects/libs/mbedtls/build/x86/library && /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT library/CMakeFiles/mbedcrypto_static.dir/ripemd160.c.o -MF CMakeFiles/mbedcrypto_static.dir/ripemd160.c.o.d -o CMakeFiles/mbedcrypto_static.dir/ripemd160.c.o -c /home/user/Projects/libs/mbedtls/mbedtls/library/ripemd160.c
 
 library/CMakeFiles/mbedcrypto_static.dir/ripemd160.c.i: cmake_force
@@ -1093,7 +1107,7 @@ library/CMakeFiles/mbedcrypto_static.dir/ripemd160.c.s: cmake_force
 library/CMakeFiles/mbedcrypto_static.dir/rsa.c.o: library/CMakeFiles/mbedcrypto_static.dir/flags.make
 library/CMakeFiles/mbedcrypto_static.dir/rsa.c.o: /home/user/Projects/libs/mbedtls/mbedtls/library/rsa.c
 library/CMakeFiles/mbedcrypto_static.dir/rsa.c.o: library/CMakeFiles/mbedcrypto_static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object library/CMakeFiles/mbedcrypto_static.dir/rsa.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object library/CMakeFiles/mbedcrypto_static.dir/rsa.c.o"
 	cd /home/user/Projects/libs/mbedtls/build/x86/library && /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT library/CMakeFiles/mbedcrypto_static.dir/rsa.c.o -MF CMakeFiles/mbedcrypto_static.dir/rsa.c.o.d -o CMakeFiles/mbedcrypto_static.dir/rsa.c.o -c /home/user/Projects/libs/mbedtls/mbedtls/library/rsa.c
 
 library/CMakeFiles/mbedcrypto_static.dir/rsa.c.i: cmake_force
@@ -1107,7 +1121,7 @@ library/CMakeFiles/mbedcrypto_static.dir/rsa.c.s: cmake_force
 library/CMakeFiles/mbedcrypto_static.dir/rsa_alt_helpers.c.o: library/CMakeFiles/mbedcrypto_static.dir/flags.make
 library/CMakeFiles/mbedcrypto_static.dir/rsa_alt_helpers.c.o: /home/user/Projects/libs/mbedtls/mbedtls/library/rsa_alt_helpers.c
 library/CMakeFiles/mbedcrypto_static.dir/rsa_alt_helpers.c.o: library/CMakeFiles/mbedcrypto_static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object library/CMakeFiles/mbedcrypto_static.dir/rsa_alt_helpers.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object library/CMakeFiles/mbedcrypto_static.dir/rsa_alt_helpers.c.o"
 	cd /home/user/Projects/libs/mbedtls/build/x86/library && /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT library/CMakeFiles/mbedcrypto_static.dir/rsa_alt_helpers.c.o -MF CMakeFiles/mbedcrypto_static.dir/rsa_alt_helpers.c.o.d -o CMakeFiles/mbedcrypto_static.dir/rsa_alt_helpers.c.o -c /home/user/Projects/libs/mbedtls/mbedtls/library/rsa_alt_helpers.c
 
 library/CMakeFiles/mbedcrypto_static.dir/rsa_alt_helpers.c.i: cmake_force
@@ -1121,7 +1135,7 @@ library/CMakeFiles/mbedcrypto_static.dir/rsa_alt_helpers.c.s: cmake_force
 library/CMakeFiles/mbedcrypto_static.dir/sha1.c.o: library/CMakeFiles/mbedcrypto_static.dir/flags.make
 library/CMakeFiles/mbedcrypto_static.dir/sha1.c.o: /home/user/Projects/libs/mbedtls/mbedtls/library/sha1.c
 library/CMakeFiles/mbedcrypto_static.dir/sha1.c.o: library/CMakeFiles/mbedcrypto_static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object library/CMakeFiles/mbedcrypto_static.dir/sha1.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object library/CMakeFiles/mbedcrypto_static.dir/sha1.c.o"
 	cd /home/user/Projects/libs/mbedtls/build/x86/library && /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT library/CMakeFiles/mbedcrypto_static.dir/sha1.c.o -MF CMakeFiles/mbedcrypto_static.dir/sha1.c.o.d -o CMakeFiles/mbedcrypto_static.dir/sha1.c.o -c /home/user/Projects/libs/mbedtls/mbedtls/library/sha1.c
 
 library/CMakeFiles/mbedcrypto_static.dir/sha1.c.i: cmake_force
@@ -1135,7 +1149,7 @@ library/CMakeFiles/mbedcrypto_static.dir/sha1.c.s: cmake_force
 library/CMakeFiles/mbedcrypto_static.dir/sha256.c.o: library/CMakeFiles/mbedcrypto_static.dir/flags.make
 library/CMakeFiles/mbedcrypto_static.dir/sha256.c.o: /home/user/Projects/libs/mbedtls/mbedtls/library/sha256.c
 library/CMakeFiles/mbedcrypto_static.dir/sha256.c.o: library/CMakeFiles/mbedcrypto_static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object library/CMakeFiles/mbedcrypto_static.dir/sha256.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object library/CMakeFiles/mbedcrypto_static.dir/sha256.c.o"
 	cd /home/user/Projects/libs/mbedtls/build/x86/library && /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT library/CMakeFiles/mbedcrypto_static.dir/sha256.c.o -MF CMakeFiles/mbedcrypto_static.dir/sha256.c.o.d -o CMakeFiles/mbedcrypto_static.dir/sha256.c.o -c /home/user/Projects/libs/mbedtls/mbedtls/library/sha256.c
 
 library/CMakeFiles/mbedcrypto_static.dir/sha256.c.i: cmake_force
@@ -1149,7 +1163,7 @@ library/CMakeFiles/mbedcrypto_static.dir/sha256.c.s: cmake_force
 library/CMakeFiles/mbedcrypto_static.dir/sha512.c.o: library/CMakeFiles/mbedcrypto_static.dir/flags.make
 library/CMakeFiles/mbedcrypto_static.dir/sha512.c.o: /home/user/Projects/libs/mbedtls/mbedtls/library/sha512.c
 library/CMakeFiles/mbedcrypto_static.dir/sha512.c.o: library/CMakeFiles/mbedcrypto_static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object library/CMakeFiles/mbedcrypto_static.dir/sha512.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object library/CMakeFiles/mbedcrypto_static.dir/sha512.c.o"
 	cd /home/user/Projects/libs/mbedtls/build/x86/library && /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT library/CMakeFiles/mbedcrypto_static.dir/sha512.c.o -MF CMakeFiles/mbedcrypto_static.dir/sha512.c.o.d -o CMakeFiles/mbedcrypto_static.dir/sha512.c.o -c /home/user/Projects/libs/mbedtls/mbedtls/library/sha512.c
 
 library/CMakeFiles/mbedcrypto_static.dir/sha512.c.i: cmake_force
@@ -1163,7 +1177,7 @@ library/CMakeFiles/mbedcrypto_static.dir/sha512.c.s: cmake_force
 library/CMakeFiles/mbedcrypto_static.dir/threading.c.o: library/CMakeFiles/mbedcrypto_static.dir/flags.make
 library/CMakeFiles/mbedcrypto_static.dir/threading.c.o: /home/user/Projects/libs/mbedtls/mbedtls/library/threading.c
 library/CMakeFiles/mbedcrypto_static.dir/threading.c.o: library/CMakeFiles/mbedcrypto_static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object library/CMakeFiles/mbedcrypto_static.dir/threading.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object library/CMakeFiles/mbedcrypto_static.dir/threading.c.o"
 	cd /home/user/Projects/libs/mbedtls/build/x86/library && /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT library/CMakeFiles/mbedcrypto_static.dir/threading.c.o -MF CMakeFiles/mbedcrypto_static.dir/threading.c.o.d -o CMakeFiles/mbedcrypto_static.dir/threading.c.o -c /home/user/Projects/libs/mbedtls/mbedtls/library/threading.c
 
 library/CMakeFiles/mbedcrypto_static.dir/threading.c.i: cmake_force
@@ -1177,7 +1191,7 @@ library/CMakeFiles/mbedcrypto_static.dir/threading.c.s: cmake_force
 library/CMakeFiles/mbedcrypto_static.dir/timing.c.o: library/CMakeFiles/mbedcrypto_static.dir/flags.make
 library/CMakeFiles/mbedcrypto_static.dir/timing.c.o: /home/user/Projects/libs/mbedtls/mbedtls/library/timing.c
 library/CMakeFiles/mbedcrypto_static.dir/timing.c.o: library/CMakeFiles/mbedcrypto_static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object library/CMakeFiles/mbedcrypto_static.dir/timing.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object library/CMakeFiles/mbedcrypto_static.dir/timing.c.o"
 	cd /home/user/Projects/libs/mbedtls/build/x86/library && /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT library/CMakeFiles/mbedcrypto_static.dir/timing.c.o -MF CMakeFiles/mbedcrypto_static.dir/timing.c.o.d -o CMakeFiles/mbedcrypto_static.dir/timing.c.o -c /home/user/Projects/libs/mbedtls/mbedtls/library/timing.c
 
 library/CMakeFiles/mbedcrypto_static.dir/timing.c.i: cmake_force
@@ -1191,7 +1205,7 @@ library/CMakeFiles/mbedcrypto_static.dir/timing.c.s: cmake_force
 library/CMakeFiles/mbedcrypto_static.dir/version.c.o: library/CMakeFiles/mbedcrypto_static.dir/flags.make
 library/CMakeFiles/mbedcrypto_static.dir/version.c.o: /home/user/Projects/libs/mbedtls/mbedtls/library/version.c
 library/CMakeFiles/mbedcrypto_static.dir/version.c.o: library/CMakeFiles/mbedcrypto_static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object library/CMakeFiles/mbedcrypto_static.dir/version.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object library/CMakeFiles/mbedcrypto_static.dir/version.c.o"
 	cd /home/user/Projects/libs/mbedtls/build/x86/library && /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT library/CMakeFiles/mbedcrypto_static.dir/version.c.o -MF CMakeFiles/mbedcrypto_static.dir/version.c.o.d -o CMakeFiles/mbedcrypto_static.dir/version.c.o -c /home/user/Projects/libs/mbedtls/mbedtls/library/version.c
 
 library/CMakeFiles/mbedcrypto_static.dir/version.c.i: cmake_force
@@ -1205,7 +1219,7 @@ library/CMakeFiles/mbedcrypto_static.dir/version.c.s: cmake_force
 library/CMakeFiles/mbedcrypto_static.dir/version_features.c.o: library/CMakeFiles/mbedcrypto_static.dir/flags.make
 library/CMakeFiles/mbedcrypto_static.dir/version_features.c.o: library/version_features.c
 library/CMakeFiles/mbedcrypto_static.dir/version_features.c.o: library/CMakeFiles/mbedcrypto_static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object library/CMakeFiles/mbedcrypto_static.dir/version_features.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object library/CMakeFiles/mbedcrypto_static.dir/version_features.c.o"
 	cd /home/user/Projects/libs/mbedtls/build/x86/library && /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT library/CMakeFiles/mbedcrypto_static.dir/version_features.c.o -MF CMakeFiles/mbedcrypto_static.dir/version_features.c.o.d -o CMakeFiles/mbedcrypto_static.dir/version_features.c.o -c /home/user/Projects/libs/mbedtls/build/x86/library/version_features.c
 
 library/CMakeFiles/mbedcrypto_static.dir/version_features.c.i: cmake_force
@@ -1284,6 +1298,7 @@ mbedcrypto_static_OBJECTS = \
 "CMakeFiles/mbedcrypto_static.dir/psa_crypto_slot_management.c.o" \
 "CMakeFiles/mbedcrypto_static.dir/psa_crypto_storage.c.o" \
 "CMakeFiles/mbedcrypto_static.dir/psa_its_file.c.o" \
+"CMakeFiles/mbedcrypto_static.dir/psa_util.c.o" \
 "CMakeFiles/mbedcrypto_static.dir/ripemd160.c.o" \
 "CMakeFiles/mbedcrypto_static.dir/rsa.c.o" \
 "CMakeFiles/mbedcrypto_static.dir/rsa_alt_helpers.c.o" \
@@ -1364,6 +1379,7 @@ library/libmbedcrypto.a: library/CMakeFiles/mbedcrypto_static.dir/psa_crypto_se.
 library/libmbedcrypto.a: library/CMakeFiles/mbedcrypto_static.dir/psa_crypto_slot_management.c.o
 library/libmbedcrypto.a: library/CMakeFiles/mbedcrypto_static.dir/psa_crypto_storage.c.o
 library/libmbedcrypto.a: library/CMakeFiles/mbedcrypto_static.dir/psa_its_file.c.o
+library/libmbedcrypto.a: library/CMakeFiles/mbedcrypto_static.dir/psa_util.c.o
 library/libmbedcrypto.a: library/CMakeFiles/mbedcrypto_static.dir/ripemd160.c.o
 library/libmbedcrypto.a: library/CMakeFiles/mbedcrypto_static.dir/rsa.c.o
 library/libmbedcrypto.a: library/CMakeFiles/mbedcrypto_static.dir/rsa_alt_helpers.c.o
@@ -1376,7 +1392,7 @@ library/libmbedcrypto.a: library/CMakeFiles/mbedcrypto_static.dir/version.c.o
 library/libmbedcrypto.a: library/CMakeFiles/mbedcrypto_static.dir/version_features.c.o
 library/libmbedcrypto.a: library/CMakeFiles/mbedcrypto_static.dir/build.make
 library/libmbedcrypto.a: library/CMakeFiles/mbedcrypto_static.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Linking C static library libmbedcrypto.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Linking C static library libmbedcrypto.a"
 	cd /home/user/Projects/libs/mbedtls/build/x86/library && $(CMAKE_COMMAND) -P CMakeFiles/mbedcrypto_static.dir/cmake_clean_target.cmake
 	cd /home/user/Projects/libs/mbedtls/build/x86/library && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mbedcrypto_static.dir/link.txt --verbose=$(VERBOSE)
 

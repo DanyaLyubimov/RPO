@@ -104,6 +104,6 @@ programs/psa/CMakeFiles/key_ladder_demo.dir/key_ladder_demo.c.o: \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/ecp.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/bignum.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/md.h \
+  /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/ecjpake.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto_extra.h \
-  /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto_compat.h \
-  /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/ecjpake.h
+  /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto_compat.h

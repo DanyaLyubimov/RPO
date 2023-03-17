@@ -35,13 +35,12 @@ add_library( # Sets the name of the library.
 add_library(spdlog STATIC IMPORTED)
 set_target_properties(spdlog PROPERTIES IMPORTED_LOCATION
         /home/user/Projects/libs/spdlog/build/libspdlog.a)
-target_include_directories(fclient PUBLIC
-        /home/user/Projects/libs/spdlog/include)
+
 
 
 add_library(mbedcrypto SHARED IMPORTED)
 set_target_properties(mbedcrypto PROPERTIES IMPORTED_LOCATION
-        /home/user/Projects/libs/mbedtls/build/x86_64/library/libmbedcrypto.so)
+        /home/user/Projects/libs/mbedtls/build/armeabi-v7a/library/libmbedcrypto.so)
 
 target_include_directories(fclient PUBLIC
          /home/user/Projects/libs/spdlog/include
@@ -74,7 +73,8 @@ target_link_libraries( # Specifies the target library.
         # Links the target library to the log library
         # included in the NDK.
         mbedcrypto
-        ${log-lib})
+        ${log-lib}
+        )
 
 
 

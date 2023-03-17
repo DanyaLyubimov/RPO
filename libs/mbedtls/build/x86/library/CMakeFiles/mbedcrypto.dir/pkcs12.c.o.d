@@ -58,6 +58,7 @@ library/CMakeFiles/mbedcrypto.dir/pkcs12.c.o: \
   /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/errno.h \
   /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/errno-base.h \
   /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_errno_inlines.h \
+  /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/assert.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/pkcs12.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/md.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/private_access.h \
@@ -110,9 +111,9 @@ library/CMakeFiles/mbedcrypto.dir/pkcs12.c.o: \
   /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto_builtin_composites.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/ecdsa.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/ecp.h \
+  /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/ecjpake.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto_extra.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto_compat.h \
-  /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/ecjpake.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/psa_util.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/pk.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/rsa.h \

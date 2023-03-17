@@ -100,6 +100,7 @@ cert_req_EXTERNAL_OBJECTS = \
 "/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_agreement.c.o" \
 "/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_management.c.o" \
 "/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.o" \
+"/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_pake.c.o" \
 "/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.o" \
 "/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.o" \
 "/home/user/Projects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.o" \
@@ -120,6 +121,7 @@ programs/x509/cert_req: CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_drive
 programs/x509/cert_req: CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_agreement.c.o
 programs/x509/cert_req: CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_management.c.o
 programs/x509/cert_req: CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.o
+programs/x509/cert_req: CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_pake.c.o
 programs/x509/cert_req: CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.o
 programs/x509/cert_req: CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.o
 programs/x509/cert_req: CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.o

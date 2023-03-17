@@ -52,6 +52,7 @@ library/CMakeFiles/mbedcrypto_static.dir/psa_crypto_hash.c.o: \
   /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/stdio.h \
   /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/stdlib.h \
   /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_stdlib_inlines.h \
+  /home/user/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/assert.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto_platform.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/private_access.h \
@@ -99,9 +100,9 @@ library/CMakeFiles/mbedcrypto_static.dir/psa_crypto_hash.c.o: \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/ecp.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/bignum.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/md.h \
+  /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/ecjpake.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto_extra.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto_compat.h \
-  /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/ecjpake.h \
   /home/user/Projects/libs/mbedtls/mbedtls/library/psa_crypto_core.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto_se_driver.h \
   /home/user/Projects/libs/mbedtls/mbedtls/library/psa_crypto_hash.h \

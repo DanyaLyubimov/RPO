@@ -346,9 +346,9 @@ const char *mbedtls_high_level_strerr(int error_code)
         case -(MBEDTLS_ERR_PKCS7_FEATURE_UNAVAILABLE):
             return( "PKCS7 - Unavailable feature, e.g. anything other than signed data" );
         case -(MBEDTLS_ERR_PKCS7_INVALID_VERSION):
-            return( "PKCS7 - The PKCS7 version element is invalid or cannot be parsed" );
+            return( "PKCS7 - The PKCS #7 version element is invalid or cannot be parsed" );
         case -(MBEDTLS_ERR_PKCS7_INVALID_CONTENT_INFO):
-            return( "PKCS7 - The PKCS7 content info is invalid or cannot be parsed" );
+            return( "PKCS7 - The PKCS #7 content info is invalid or cannot be parsed" );
         case -(MBEDTLS_ERR_PKCS7_INVALID_ALG):
             return( "PKCS7 - The algorithm tag or value is invalid or cannot be parsed" );
         case -(MBEDTLS_ERR_PKCS7_INVALID_CERT):
@@ -364,7 +364,7 @@ const char *mbedtls_high_level_strerr(int error_code)
         case -(MBEDTLS_ERR_PKCS7_VERIFY_FAIL):
             return( "PKCS7 - Verification Failed" );
         case -(MBEDTLS_ERR_PKCS7_CERT_DATE_INVALID):
-            return( "PKCS7 - The PKCS7 date issued/expired dates are invalid" );
+            return( "PKCS7 - The PKCS #7 date issued/expired dates are invalid" );
 #endif /* MBEDTLS_PKCS7_C */
 
 #if defined(MBEDTLS_RSA_C)

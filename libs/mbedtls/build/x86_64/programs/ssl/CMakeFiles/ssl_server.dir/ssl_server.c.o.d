@@ -109,9 +109,9 @@ programs/ssl/CMakeFiles/ssl_server.dir/ssl_server.c.o: \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/sha256.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto_driver_contexts_composites.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto_builtin_composites.h \
+  /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/ecjpake.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto_extra.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/psa/crypto_compat.h \
-  /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/ecjpake.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/x509_crl.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/dhm.h \
   /home/user/Projects/libs/mbedtls/mbedtls/include/mbedtls/ecdh.h \
