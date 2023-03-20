@@ -186,7 +186,7 @@ Java_ru_iu3_fclient_MainActivity_transaction(JNIEnv *xenv, jobject xthiz, jbyteA
         }
 
         env->ReleaseByteArrayElements(trd, (jbyte *)p, 0);
-        return (ptc > 0);
+        //return (ptc > 0);
         id = env->GetMethodID(cls, "transactionResult", "(Z)V");
         env->CallVoidMethod(thiz, id, ptc > 0);
 
