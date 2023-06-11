@@ -1,6 +1,10 @@
 package ru.iu3.backend.models;
 
-import jakarta.persistence.*;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
+import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name = "artists")
@@ -18,9 +22,13 @@ public class Artist {
     @Column(name = "name", nullable = false, unique = true)
     public String name;
 
-    @Column(name = "age", nullable = false)
-    public String age;
+    @Column(name = "century", nullable = false)
+    public String century;
 
+
+    @JsonIgnore
+    @OneToMany (mappedBy = "artistid")
+    public List<Painting> paintings = new ArrayList<Painting>();
     @ManyToOne()
     @JoinColumn(name = "countryid")
     public Country country;
